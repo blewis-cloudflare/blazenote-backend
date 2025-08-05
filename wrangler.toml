@@ -8,11 +8,11 @@ compatibility_flags = [ "nodejs_compat" ]
 pattern = "blazenote-backend.successful-balance.sxplab.com"
 custom_domain = true
 
-# [[d1_databases]]
-# binding = "DB"
-# database_name = "blazenote"
-# database_id = "<DATABASE ID>"
-# migrations_dir = "./migrations"
+[[d1_databases]]
+binding = "DB"
+database_name = "blazenote"
+database_id = "7f0a3b0e-4c65-4f10-80a8-f5cc462a598d"
+migrations_dir = "./migrations"
 
 # [ai]
 # binding = "AI"
